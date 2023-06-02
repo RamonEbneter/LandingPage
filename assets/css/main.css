@@ -32,6 +32,9 @@ body {
 	line-height: 1;
 }
 
+.blue-text {
+	color: #6c9af1;
+}
 ol, ul {
 	list-style: none;
 }
@@ -2343,7 +2346,7 @@ input, select, textarea {
 
 			.image.phone .inner, .image.phone:before, .image.phone:after {
 				display: block;
-				border: solid 2px rgba(255, 255, 255, 0.25);
+				border: solid 10px;
 				background: black !important;
 			}
 
@@ -3764,7 +3767,7 @@ input, select, textarea {
 			}
 
 				#header .image.phone .inner, #header .image.phone:before, #header .image.phone:after {
-					border-color: rgba(255, 255, 255, 0.25);
+					border-color: rgba(0,0,0);
 
 				}
 

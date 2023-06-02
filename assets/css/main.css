@@ -1811,6 +1811,11 @@ input, select, textarea {
 		}
 
 /* Box */
+.icon-element {
+	display: flex !important;
+	align-items: center;
+	gap: 15px;
+}
 
 	.box {
 		border-radius: 6px;

@@ -344,11 +344,6 @@ input, select, textarea {
 
 /* Row */
 
-#one {
-	margin-left: 200px;
-	margin-right: 200px;
-}
-
 	.row {
 		display: flex;
 		flex-wrap: wrap;
@@ -2753,10 +2748,11 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		-moz-align-items: center;
-		-webkit-align-items: center;
-		-ms-align-items: center;
-		align-items: center;
+		-moz-align-items: flex-start;
+		-webkit-align-items: flex-start;
+		-ms-align-items: flex-start;
+		align-items: flex-start;
+		justify-content: center;
 		margin: 0 0 2em 0;
 	}
 
